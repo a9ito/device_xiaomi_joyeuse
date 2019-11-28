@@ -250,8 +250,6 @@ vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti|25ff1c0f9f99af0dc2
 vendor/bin/hw/android.hardware.sensors@1.0-service|c8e255673bb3ebe0e5c56b00020bd7203a922340
 vendor/bin/hw/android.hardware.thermal@1.0-service|60769dbf47658907926d4e407ff64a7570eba500
 vendor/bin/hw/android.hardware.usb@1.0-service|fb1c1ae07d406b2532bf547a91aaae2fe53415c9
-vendor/bin/hw/android.hardware.wifi@1.0-service|e414d095d988eab27cf99e243d909ea8d7d8e3be
-vendor/bin/hw/hostapd|ae6127b47bf48dd1004edc7de02b94882a1d64d5
 vendor/bin/hw/qcrild|4c0b6251a635c8f4772501fb8242a34c9c05bbfd
 vendor/bin/hw/vendor.display.color@1.0-service|8646c74c5b19e6d5086d7a4f83e0757610d18f3f
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|09991c52c26538bd8fa46492e7e55a6938ac05ac
@@ -263,7 +261,6 @@ vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|e98afa5453b6b1431cfee9b0e9483
 vendor/bin/hw/vendor.qti.hardware.servicetracker@1.1-service|d952ab84dba7048f9eb02bee56a5fd656fb2e6c5
 vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service|1046c8c0a240a058b5d314054b6617f2e359f009
 vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service|4c5b9f64462ed08ac7ffd67cf9c76f7d65d8da97
-vendor/bin/hw/wpa_supplicant|0e03bd0d7e9496f38ec299d12efadf31413bd8d1
 vendor/bin/ims_rtp_daemon|1c9c218ed1ed4c395038cd63fe149b04f971a219
 vendor/bin/imsdatadaemon|0a29d0e8f0fc3df1ba7e0e4e1b4553b245cdb376
 vendor/bin/imsqmidaemon|eeeff62a4e6c66e2cc14125b28542c71c720dc19
@@ -393,9 +390,6 @@ vendor/etc/elliptic_sensor.xml|c934308c4fefa9b4e4054706c061a5598333fe78
 vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
 vendor/etc/gps.conf|02ff6092279c7e9720b8e4a2113c41af85d8f319
-vendor/etc/hostapd/hostapd.accept|4ef58266ff29fd5ad1639f212d8e025bfd5a8418
-vendor/etc/hostapd/hostapd.deny|19522d391a92f701d3329bcd9cc1bd810e5b89a3
-vendor/etc/hostapd/hostapd_default.conf|c91dda3b47059d020ece09f62cef12d74dc4d42b
 vendor/etc/init/android.hardware.audio@2.0-service.rc|e4fd392d11723c11cca5ef8faae49240f123d40f
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|d1c7c6ae380afe02b433acbe53ca7b25ab247430
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
@@ -416,12 +410,10 @@ vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc|db9900f3a9d88
 vendor/etc/init/android.hardware.sensors@1.0-service.rc|de02e2dbb990676d4c79330c2d063c2bf3bc2d03
 vendor/etc/init/android.hardware.thermal@1.0-service.rc|83a76be56b9b0843ff3f2c06186c63156a459acb
 vendor/etc/init/android.hardware.usb@1.0-service.rc|2981a5248a0736d882a0b6ac24dd8c2d80878f77
-vendor/etc/init/android.hardware.wifi@1.0-service.rc|6198df2cf056ea3f3f7b4ac73144f24573a17faf
 vendor/etc/init/cnd.rc|ff205cff8e00ec6805fd1e19f3ca6ff86700cbb6
 vendor/etc/init/dataadpl.rc|cd4907d9bfd438fe5f5c86f5d6cec590ac0bac2a
 vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
 vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
-vendor/etc/init/hostapd.android.rc|86a73546e490e60926ab3530aeec04f3db7e7619
 vendor/etc/init/ims_rtp_daemon.rc|b3c3a380204d7b1b3a58937db8c8e76c00ac8825
 vendor/etc/init/imsdatadaemon.rc|29face37c174aebcd1358f7d7ad0bd4baf83063b
 vendor/etc/init/imsqmidaemon.rc|dda16d842b7c65296e97bc9921b723a43b152ba3
@@ -524,10 +516,6 @@ vendor/etc/usb_audio_policy_configuration.xml|ff1a862db0102d8c6cae81e8de0060243d
 vendor/etc/vintf/compatibility_matrix.xml|9ada832319add83798b1a6103805fdc173b60671
 vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|8d7eafd68db9bbe7ec7a5c4d547f026869766081
 vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
-vendor/etc/wifi/p2p_supplicant_overlay.conf|7556b5698626246b4e25cd9906524c43ae16c287
-vendor/etc/wifi/WCNSS_qcom_cfg.ini|eefdaac7ecd2409e986d706b19d19090bc841551
-vendor/etc/wifi/wpa_supplicant.conf|167cee6a83189a4aa496b35a96ec9627db84c8d6
-vendor/etc/wifi/wpa_supplicant_overlay.conf|289b5ff519e935f4a1431414c83e2e7e9e6603d0
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/firmware/a615_zap.b00|7afc31984d7eeacdd0fc78118ad8fa46c9b3e4ee
@@ -774,7 +762,6 @@ vendor/lib/libCB.so|2b6667c4d66d3f90eb0c01a694d1d988b8b83c27
 vendor/lib/libcdsp_default_listener.so|a92281e3c69e4498c25daa103cbffd129ac7fa3d
 vendor/lib/libcdsprpc.so|84fabdd81d12929a99b4dd24aa15a2d001177edd
 vendor/lib/libcirrusspkrprot.so|fcd2e14ec87f3d52ef9b6ed79b9324882e755179
-vendor/lib/libcld80211.so|fe307933a207f893c7dd312f4c6a86b7cb276beb
 vendor/lib/libcne.so|6968ec0377e82f4a7c0a9dac1c57492ed75f1a46
 vendor/lib/libcneapiclient.so|8e9b22901c44aa5d9e4b82b0719573eb7fcdf51c
 vendor/lib/libcneoplookup.so|f1a2f6bd94c1d30709530b414a13c8ed0414c770
@@ -1032,10 +1019,7 @@ vendor/lib/libvpphvx.so|ce27088ca805cc4681ea79b21ded0b1013a6cf80
 vendor/lib/libvpplibrary.so|325a09a3527e011fe05acf94deb3b0c92833d6b4
 vendor/lib/libvpx.so|8b7c83f97c9bac6605cc7cc4ac47bc3f8885cba8
 vendor/lib/libwebrtc_audio_preprocessing.so|af7693c924df79d9bdeac53fd83ec95206e8d3e5
-vendor/lib/libwifi-hal-ctrl.so|0799052b76c1605e5f5146c49729be89f2031dcc
-vendor/lib/libwifi-hal-qcom.so|46f167b1ab80185fcddff92cde0282f10dd0c051
 vendor/lib/libwms.so|355400fd9b94241e3d376246a7402aa5eabf379f
-vendor/lib/libwpa_client.so|fd5083c839b758aa8721ed13e99024de6b70e745
 vendor/lib/libwqe.so|35a87cca49bab1b65697ded80c377c208e506a2b
 vendor/lib/libwvhidl.so|64cd426be5f03eab21cc3be88cd532eaed643dfb
 vendor/lib/libwvkeybox.so|8c9e0c00bad23c8ddee8d510c416c3e307e47368
@@ -1448,7 +1432,6 @@ vendor/lib64/libCB.so|0e71d605d70d648811672b09a75c6da5ee2f4dca
 vendor/lib64/libcdsp_default_listener.so|886ba3921f81439cb1b4e520ad622e1089291fa7
 vendor/lib64/libcdsprpc.so|1c41c4fbcb00e1ad46e9c4e5fece98e8ac0ce74a
 vendor/lib64/libcirrusspkrprot.so|51bf91feeb75bfb8d661c4fe9168cd8d5e11a0bf
-vendor/lib64/libcld80211.so|e60152ec9bd9289ba9d5d2ebb08d3a7736c7902e
 vendor/lib64/libcne.so|44ae442957ce730fda1373f43a0ccc5547d5c1a7
 vendor/lib64/libcneapiclient.so|8f5edba4f34dc922ee96ad85536b37deb3083c53
 vendor/lib64/libcneoplookup.so|475f3a0d30caab2c5d62c8aaf75908e741528648
@@ -1523,8 +1506,6 @@ vendor/lib64/libizat_core.so|1ac017e4033b3726fd3f3a96264e415de8c000ae
 vendor/lib64/libjson.so|23815aa4c2ff6745ceba68161749fff152beaf84
 vendor/lib64/libkeymasterdeviceutils.so|b5d4819abb7dbd7908dfe7c6cfa5035e02b10383
 vendor/lib64/libkeymasterutils.so|f2a26b5a54c0c3202ef6b3b5c8caa43460ef9902
-vendor/lib64/libkeystore-engine-wifi-hidl.so|67af2975710bc6456b64ab4da673368d71c7d961
-vendor/lib64/libkeystore-wifi-hidl.so|00f8ebff63393acc68efb9b342f2a44c2f036472
 vendor/lib64/liblbs_core.so|3466e294e77dbc7632291c5b48ab9a5b07247b25
 vendor/lib64/liblearningmodule.so|fb4c9e97e5b1f50babc83318815d5e251afa140b
 vendor/lib64/liblistenjni.so|30a03fc7a5eddabdc7b34d4485f2c6a7b1296a1a
@@ -1712,11 +1693,7 @@ vendor/lib64/libvppclient.so|cbc447e4d88118029488d1481fd3b7b99469f9a0
 vendor/lib64/libvpphvx.so|43035265f2dc18743486646f9d031c26ae564a7f
 vendor/lib64/libvpplibrary.so|701e32fc63885334294e1c24c071c1ff4d5bce37
 vendor/lib64/libwebrtc_audio_preprocessing.so|e1850c6b3af8ad4af9be39a24a83f17e60560f29
-vendor/lib64/libwifi-hal-ctrl.so|00526988e62ff990e1d29123eb03e07a7db1d6fe
-vendor/lib64/libwifi-hal-qcom.so|7b74cdb4e15a99b2cf658bee5653f243fc2ca004
-vendor/lib64/libwifi-hal.so|38d3678ef8205e21ca91967d589e3250743630bd
 vendor/lib64/libwms.so|adf141e5ecabe7e1285734d6df5c72b82a1eb53b
-vendor/lib64/libwpa_client.so|b1abd8c50c324c6061c212a33dfcbbac048d3ef9
 vendor/lib64/libwqe.so|e8d06711b0ca202217f00133454270a3b21ec1fa
 vendor/lib64/libwvkeybox.so|7a763633a24cfad089ea11e8b4a2246f30ee8aee
 vendor/lib64/libXMFD_AgeGender.so|1db22d1fdb244072129b3dda02b276128a980fd2
@@ -1838,10 +1815,6 @@ vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so|c1a105941bed2ea7f97a2fa1a
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so|25aad2185716c7ff1f5ff6447f83a02d36afaf9e
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so|16df368ea5aae911743ef25bba59d3008c2db9de
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so|db5423888c6efaaa689d9323c42169ad16a6aab5
-vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so|590ba478e94c24b327ae78ff6d8ee0a5ec5d4383
-vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.1.so|4c66e74c1a2e7704d8ff8e6c801db2b0ccae4cc3
-vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so|aeb3f71d7f15b14453e2a53b6fe610637ece0e27
-vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.1.so|cf15e310f4e6763af831bbdfeebcd2225ac96758
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so|d63a33bc0648ca3a6ca5bd88243dd84261c0235b
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|284569d31e32cb472ac5bba3b12a6e0252a86ea9
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|ce2b3153914239932f6c1880394869d05315143e
