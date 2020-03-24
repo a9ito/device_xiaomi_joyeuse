@@ -217,7 +217,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.xiaomi_joyeuse-libperfmgr \
+    android.hardware.power-service.xiaomi_joyeuse-libperfmgr \
     android.hardware.power.stats@1.0-service.xiaomi_joyeuse
 
 PRODUCT_COPY_FILES += \
