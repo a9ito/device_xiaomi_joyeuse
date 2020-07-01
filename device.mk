@@ -74,6 +74,12 @@ PRODUCT_PACKAGES += \
 -include $(LOCAL_PATH)/vendor_prop.mk
 -include $(LOCAL_PATH)/product_prop.mk
 
+# Dex
+PRODUCT_PACKAGES += \
+     cppreopts.sh
+PRODUCT_PROPERTY_OVERRIDES += \
+     ro.cp_system_other_odex=1
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd

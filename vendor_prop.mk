@@ -201,3 +201,5 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     vendor.power.pasr.enabled=true \
     vendor.qcom.bluetooth.soc=cherokee \
     vendor.voice.path.for.pcm.voip=true \
+    pm.dexopt.ab-ota=speed-profile \
+    dalvik.vm.image-dex2oat-threads=8

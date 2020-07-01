@@ -51,6 +51,9 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+# Dex
+BOARD_USES_SYSTEM_OTHER_ODEX := true
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
