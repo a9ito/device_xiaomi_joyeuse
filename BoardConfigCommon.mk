@@ -87,7 +87,6 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=1
 BOARD_KERNEL_CMDLINE += video=vfb:640x400,bpp=32,memsize=3072000
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_NO_LLVM_BINUTILS := true
 
 # HIDL
@@ -160,6 +159,12 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-06-01
+
+# Build Enforce only user variant
+ifneq ($(TARGET_BUILD_VARIANT),user)
+   BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+   SELINUX_IGNORE_NEVERALLOWS := true
+endif
 
 # Sepolicy
 include device/qcom/sepolicy/sepolicy.mk
