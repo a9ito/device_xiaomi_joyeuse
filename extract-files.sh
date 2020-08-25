@@ -4,6 +4,17 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+# stop right here. No need to go down the rabbit hole.
+if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
+    return
+fi
+
+# Required!
+export DEVICE=joyeuse
+export DEVICE_COMMON=sm6250-common
+export VENDOR=xiaomi
+
+export DEVICE_BRINGUP_YEAR=2020
 
 set -e
 
@@ -11,9 +22,9 @@ set -e
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-LINEAGE_ROOT="${MY_DIR}"/../../..
+KOMODO_ROOT="${MY_DIR}"/../../..
 
-HELPER="${LINEAGE_ROOT}/vendor/komodo/build/tools/extract_utils.sh"
+HELPER="${KOMODO_ROOT}/vendor/komodo/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -59,19 +70,10 @@ function blob_fixup() {
     esac
 }
 
-# Initialize the helper for common device
-setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
+# Initialize the helper for device
+setup_vendor "${DEVICE}" "${VENDOR}" "${KOMODO_ROOT}" false "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
-
-if [ -s "${MY_DIR}/../${DEVICE}/proprietary-files.txt" ]; then
-    # Reinitialize the helper for device
-    source "${MY_DIR}/../${DEVICE}/extract-files.sh"
-    setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" false "${CLEAN_VENDOR}"
-
-    extract "${MY_DIR}/../${DEVICE}/proprietary-files.txt" "${SRC}" \
-            "${KANG}" --section "${SECTION}"
-fi
 
 "${MY_DIR}/setup-makefiles.sh"
