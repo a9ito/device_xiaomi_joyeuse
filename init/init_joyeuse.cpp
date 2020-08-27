@@ -28,6 +28,7 @@
 #include "property_service.h"
 #include "vendor_init.h"
 
+using android::base::GetProperty;
 using android::init::property_set;
 
 void load_dalvik_properties() {
@@ -67,14 +68,6 @@ void load_dalvik_properties() {
     property_set("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_set("dalvik.vm.heapminfree", heapminfree);
     property_set("dalvik.vm.heapmaxfree", heapmaxfree);
-}
-
-void load_common_properties() {
-    load_dalvik_properties();
-}
-
-void vendor_load_properties() {
-    load_common_properties();
 }
 
 std::vector<std::string> ro_props_default_source_order = {
@@ -153,6 +146,10 @@ void load_device_properties() {
                 "joyeuse_global-user 10 QKQ1.191215.002 V11.0.5.0.QJZMIXM release-keys",
                 "Redmi", "joyeuse", "Redmi Note 9 Pro");
     }
+}
+
+void load_common_properties() {
+    load_dalvik_properties();
 }
 
 void vendor_load_properties() {
