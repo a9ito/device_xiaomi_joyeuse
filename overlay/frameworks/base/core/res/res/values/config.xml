@@ -626,4 +626,7 @@
 
     <!-- Live Display -->
     <bool name="config_liveDisplayAvailable">true</bool>
+
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
 </resources>
