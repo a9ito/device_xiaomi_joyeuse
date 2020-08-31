@@ -238,7 +238,6 @@ vendor/bin/hw/android.hardware.audio@2.0-service|e26bcf2551ab7aa5d4a785232250cbf
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|4db1494f54cf68f520b9541f7d16943fff83f3aa
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|dce7c7298b1801f6a037dc3e4597af56e3649bd0
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|887543c3061ff473311df6bebcb6fbfddd834f27
-vendor/bin/hw/android.hardware.configstore@1.1-service|0d54f3090b9acd4a98d7e626ea35af48c998fb3b
 vendor/bin/hw/android.hardware.drm@1.0-service|f00884a5469d49c7aaf61705051eaf66d99eb06d
 vendor/bin/hw/android.hardware.drm@1.2-service.clearkey|db44a17445ce96d3b0f9e1aa5e3e5fe4e36ca23a
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|04cf0fae34bfab6ec2d2bd6e3dc2cff5d4ffb996
@@ -395,7 +394,6 @@ vendor/etc/init/android.hardware.audio@2.0-service.rc|e4fd392d11723c11cca5ef8faa
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|d1c7c6ae380afe02b433acbe53ca7b25ab247430
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc|0cf3231341a4f78df856b21d243117150cbea337
-vendor/etc/init/android.hardware.configstore@1.1-service.rc|80e7bfbb733401116b4a1d569d610d3729edfa25
 vendor/etc/init/android.hardware.drm@1.0-service.rc|2081796e32d05901fe93eddc3a10358da51661aa
 vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc|a3f4d3a6ddbdf66d56e5951454660b1a12fab89a
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|f206aecdd6843795f6448bb6d44d2244b3e48815
@@ -466,7 +464,6 @@ vendor/etc/qdcm_calib_data_nt36675_video_mode_dsi_tianma_panel.xml|b543bcb6317a2
 vendor/etc/r_submix_audio_policy_configuration.xml|8140e8e1cfb8a51ce655bfa7b166845b594a9e6f
 vendor/etc/sap.conf|a671b9cbd68f8f6b7946f6c4e93d7df4b3f733a1
 vendor/etc/sec_config|d273328b107eef40660795768bf148f4c3999d17
-vendor/etc/seccomp_policy/configstore@1.1.policy|8eb132bd70b3491fdac911aad962cbc58ef2a215
 vendor/etc/seccomp_policy/mediacodec.policy|74909794ce0d0a7ef17d3305672aa89bb862c196
 vendor/etc/sensors/config/adux1050_0.json|37f8f1084333d97c01bf655579a321a09e6f8c01
 vendor/etc/sensors/config/atoll_adux1050_0.json|71d07ad184219f9ba5dbdf76dec0cdd8703f3170
