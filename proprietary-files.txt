@@ -1142,8 +1142,6 @@ vendor/lib/vendor.qti.imsrtpservice@2.1-service-Impl.so|6453254c0904122f3ad7ee21
 vendor/lib/vendor.qti.imsrtpservice@2.1.so|40645b547a291db9956981877aed2ed4a7ad2666
 vendor/lib/vendor.qti.latency@2.0.so|d0ba7123fa45d3ae2af9f3249f5ef25875601122
 vendor/lib/vendor.qti.power.pasrmanager@1.0.so|1c912ab7987c73c820351b6f4fd97962f1e5bb6c
-vendor/lib/vndk/libstagefright_foundation.so|6ad32e29f50712492eb90172fdfab5f32d909ff9
-vendor/lib/vndk/libstagefright_omx.so|989a0177b0192f5e1235f9d9448b062503d018fc
 vendor/lib64/android.hardware.audio.common-util.so|77fb2e3b2800d84abfb991a48ebbece8fa233145
 vendor/lib64/android.hardware.audio.common@2.0-util.so|7933597a6f3246245c2778dd0921ea4b57781fbf
 vendor/lib64/android.hardware.audio.common@4.0-util.so|52d2021c5e7170bdace7b3cbfaa0aa9730ab4649
