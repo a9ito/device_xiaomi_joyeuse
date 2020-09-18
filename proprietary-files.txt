@@ -239,7 +239,6 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|4db1494f54cf68
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|dce7c7298b1801f6a037dc3e4597af56e3649bd0
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|887543c3061ff473311df6bebcb6fbfddd834f27
 vendor/bin/hw/android.hardware.drm@1.0-service|f00884a5469d49c7aaf61705051eaf66d99eb06d
-vendor/bin/hw/android.hardware.drm@1.2-service.clearkey|db44a17445ce96d3b0f9e1aa5e3e5fe4e36ca23a
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|04cf0fae34bfab6ec2d2bd6e3dc2cff5d4ffb996
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|14751f15eba2a00f20a39d1ec4fccbacb819ab34
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti|6b0264fb87b4caab908a706fc5d979df5173a311
@@ -395,7 +394,6 @@ vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|d1c7c6ae3
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc|0cf3231341a4f78df856b21d243117150cbea337
 vendor/etc/init/android.hardware.drm@1.0-service.rc|2081796e32d05901fe93eddc3a10358da51661aa
-vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc|a3f4d3a6ddbdf66d56e5951454660b1a12fab89a
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|f206aecdd6843795f6448bb6d44d2244b3e48815
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc|8e0b0596a13b8d653e6f5415c41d8a53bb12b73a
@@ -1006,8 +1004,6 @@ vendor/lib/libwvkeybox.so|8c9e0c00bad23c8ddee8d510c416c3e307e47368
 vendor/lib/libXMFD_AgeGender.so|6d6aeee1f8d158462b077277e4799597668a4edc
 vendor/lib/libxml.so|6dd568ae6306ab25e0c7682bab8b8274d02c8664
 vendor/lib/libxtadapter.so|be45023daa1fc99ac99a7afe58ff0211c5c8de4c
-vendor/lib/mediacas/libclearkeycasplugin.so|24c93650d156f83c0de8b944e155b6846467bde2
-vendor/lib/mediadrm/libdrmclearkeyplugin.so|c9fb39a19bedf753be560c850cd9823c72073519
 vendor/lib/mediadrm/libwvdrmengine.so|f9a0f7adac6e47b4f1b5d520521f8a575388ecda
 vendor/lib/qcrild_librilutils.so|dfa76725892373bb4ce0376707030d8b5d38e5a2
 vendor/lib/qtibus.so|3a7336f0ddb0e7a055a9079050c2d8aa005408ba
@@ -1666,8 +1662,6 @@ vendor/lib64/libxmi_high_dynamic_range.so|d5fcfdda2ebececb73475e6e746673d62567c2
 vendor/lib64/libxml.so|2514fb4eb983712915d7d69ce6ddcbfbb6dca105
 vendor/lib64/libxml2_vendor.so|1aa040669f47648d94bf6c0fd556ce74662f919e
 vendor/lib64/libxtadapter.so|f4a7692ed8ac0d3a67cafea9660c19081afa2cdb
-vendor/lib64/mediacas/libclearkeycasplugin.so|83a19d43ad961114ff2b760e62c856c3a356bebe
-vendor/lib64/mediadrm/libdrmclearkeyplugin.so|1b9850ee390f932c34f667883278ce3a7bc9b3fa
 vendor/lib64/mediadrm/libwvdrmengine.so|33130c2e393780cff01ebc6f512b498b07743384
 vendor/lib64/mibokeh_712_opencl.bin|ff4fe60444c257a076e7880740b0fe752d96d6a0
 vendor/lib64/qcrild_librilutils.so|22ae52ea7750c9011e3880852d800d94d54b030e
