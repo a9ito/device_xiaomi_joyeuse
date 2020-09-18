@@ -79,6 +79,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
      ro.cp_system_other_odex=1
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.2-service.clearkey
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
