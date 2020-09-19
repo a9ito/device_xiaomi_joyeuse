@@ -498,9 +498,9 @@ vendor/etc/SVIConfig.xml|059de71051994f1b24285c5a3b80c79260b4e3a3
 vendor/etc/system_properties.xml|47fb908c0683e501ea698959223cd9c6f745e40e
 vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 vendor/etc/usb_audio_policy_configuration.xml|ff1a862db0102d8c6cae81e8de0060243df29bcd
-vendor/etc/vintf/compatibility_matrix.xml|9ada832319add83798b1a6103805fdc173b60671
-vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|8d7eafd68db9bbe7ec7a5c4d547f026869766081
-vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
+-vendor/etc/vintf/compatibility_matrix.xml|9ada832319add83798b1a6103805fdc173b60671
+-vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|8d7eafd68db9bbe7ec7a5c4d547f026869766081
+-vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/firmware/a615_zap.b00|7afc31984d7eeacdd0fc78118ad8fa46c9b3e4ee
