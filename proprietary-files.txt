@@ -249,7 +249,6 @@ vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|de6c78c439d70a4fdd133b3
 vendor/bin/hw/android.hardware.media.omx@1.0-service|28ecbd1ce50066bc0bb992f453d6ed9600e3a887
 vendor/bin/hw/android.hardware.memtrack@1.0-service|1df5ba6340a70e01de5016a1b1cfeffc235a9c1c
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti|25ff1c0f9f99af0dc249d01af15fac079c87a177
-vendor/bin/hw/android.hardware.sensors@1.0-service|c8e255673bb3ebe0e5c56b00020bd7203a922340
 vendor/bin/hw/android.hardware.thermal@1.0-service|60769dbf47658907926d4e407ff64a7570eba500
 vendor/bin/hw/android.hardware.usb@1.0-service|fb1c1ae07d406b2532bf547a91aaae2fe53415c9
 vendor/bin/hw/qcrild|4c0b6251a635c8f4772501fb8242a34c9c05bbfd
@@ -404,7 +403,6 @@ vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc|6878cbc63ac6318f06fe7b804c374550f8e67381
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc|97170c1b52807f07c7ed69468b36dec08860e164
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc|db9900f3a9d88f2f207c1a86ec6184f32551ab39
-vendor/etc/init/android.hardware.sensors@1.0-service.rc|de02e2dbb990676d4c79330c2d063c2bf3bc2d03
 vendor/etc/init/android.hardware.thermal@1.0-service.rc|83a76be56b9b0843ff3f2c06186c63156a459acb
 vendor/etc/init/android.hardware.usb@1.0-service.rc|2981a5248a0736d882a0b6ac24dd8c2d80878f77
 vendor/etc/init/cnd.rc|ff205cff8e00ec6805fd1e19f3ca6ff86700cbb6
@@ -658,7 +656,6 @@ vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so|905e4c995
 vendor/lib/hw/android.hardware.ir@1.0-impl.so|323c0d72ba53ff73d143e86436a7dd714cc23c07
 vendor/lib/hw/android.hardware.memtrack@1.0-impl.so|0ccca3fd773e4de4fb09f5a7c78368cb5f18d749
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so|4b64768afe36025cda7fd069aaf3feef92e1deb3
-vendor/lib/hw/android.hardware.sensors@1.0-impl.so|e91aafc602af7a4438f521296e68244c8488ee7d
 vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so|edef561975c56ec03aa1f2203c660574c1707dc4
 vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so|8728e244723ded9dbb5ada3797a883baa5aa7b04
 vendor/lib/hw/android.hardware.thermal@1.0-impl.so|18803fc75702c6d74b603b537a5e67c0a2ed9d10
@@ -1294,7 +1291,6 @@ vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so|170d504
 vendor/lib64/hw/android.hardware.ir@1.0-impl.so|4096b2f398a7606841ab9376a21aae8d0cd28e5c
 vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so|5c5bebbce1b367734021012f320c00abff82304d
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so|ed00bd35442de55da43945ee4564af21d5fa3e8a
-vendor/lib64/hw/android.hardware.sensors@1.0-impl.so|ae1fac0f97dfd4422a888e92d6d6d47e108ae8e1
 vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so|4ee30650bae3ab7932cafc313750e63873465a06
 vendor/lib64/hw/android.hardware.thermal@1.0-impl.so|7e7b47983777ce33247b84c3b9d4bd048cc654bf
 vendor/lib64/hw/audio.bluetooth.default.so|49d3192614db28edf753e7eb963e453c7e246721
