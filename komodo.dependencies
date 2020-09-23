@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "Kry9toN/kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/joyeuse",
+    "branch": "BLC"
+  },
+  {
+    "remote": "github",
+    "repository": "Kry9toN/vendor_xiaomi_joyeuse",
+    "target_path": "vendor/xiaomi",
+    "branch": "new"
+  }
+]
