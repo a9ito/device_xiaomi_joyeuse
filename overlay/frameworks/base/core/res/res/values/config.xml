@@ -633,9 +633,6 @@
     <!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
 
-    <!-- Live Display -->
-    <bool name="config_liveDisplayAvailable">true</bool>
-
     <!-- Whether device has a physical display cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
 </resources>
