@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository": "Kry9toN/kernel_xiaomi_sm6250",
+    "repository": "Jayus-Kranul/kernel",
     "target_path": "kernel/xiaomi/joyeuse",
-    "branch": "BLC"
+    "branch": "10"
   },
   {
     "remote": "github",
