@@ -1,5 +1,5 @@
 # HALs
-/vendor/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_sm6250                                     u:object_r:hal_light_default_exec:s0
+/vendor/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_joyeuse                                     u:object_r:hal_light_default_exec:s0
 
 # Battery
 /vendor/bin/batteryd		u:object_r:batteryd_exec:s0
