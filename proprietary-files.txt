@@ -386,7 +386,6 @@ vendor/etc/data/dsi_config.xml|1e1667f631d81a2d3153b5002b9012c4bc7db393
 vendor/etc/data/netmgr_config.xml|6acd6edff3196996c92b2720ec6739b77c5c0070
 vendor/etc/default.lm|ccf299a48b5637d96c1033d56b5094d8dd7767dd
 vendor/etc/default_volume_tables.xml|49dc5b8711ee28a1913b154796bafc8fcb9a13cb
-vendor/etc/device_features/curtana.xml|1e91ac58211fe984298f7e93dc101678a02d6a2d
 vendor/etc/Diag.cfg|0df0a2eb55368dada805af71b809de79cb3e6b84
 vendor/etc/elliptic_sensor.xml|c934308c4fefa9b4e4054706c061a5598333fe78
 vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
