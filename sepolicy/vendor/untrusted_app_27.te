@@ -1,6 +1,5 @@
 allow untrusted_app_27 app_data_file:file { execute };
 allow untrusted_app_27 app_data_file:file { execute_no_trans };
-allow untrusted_app_27 hal_memtrack_default:binder { call };
 allow untrusted_app_27 app_data_file:file { execute };
 allow untrusted_app_27 vendor_default_prop:file { open };
 allow untrusted_app_27 vendor_default_prop:file { getattr };
@@ -28,4 +27,3 @@ allow untrusted_app_27 init_exec:file { open };
 allow untrusted_app_27 vendor_firmware_file:dir { getattr };
 allow untrusted_app_27 firmware_file:dir { getattr };
 allow untrusted_app_27 app_data_file:file { execute_no_trans };
-allow untrusted_app_27 proc_vmstat:file { open };
