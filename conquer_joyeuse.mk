@@ -5,7 +5,9 @@
 #
 
 $(call inherit-product, device/xiaomi/joyeuse/device.mk)
-$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
+$(call inherit-product, vendor/conquer/config/common_full_phone.mk)
+
+CONQUER_BUILD_TYPE := BETA
 
 PRODUCT_NAME := conquer_joyeuse
 PRODUCT_DEVICE := joyeuse
