@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/joyeuse/device.mk)
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 
-PRODUCT_NAME := komodo_joyeuse
+PRODUCT_NAME := conquer_joyeuse
 PRODUCT_DEVICE := joyeuse
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 9 Pro

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_joyeuse.mk
+    $(LOCAL_DIR)/conquer_joyeuse.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_joyeuse-user \
-    komodo_joyeuse-userdebug \
-    komodo_joyeuse-eng
+    conquer_joyeuse-user \
+    conquer_joyeuse-userdebug \
+    conquer_joyeuse-eng
