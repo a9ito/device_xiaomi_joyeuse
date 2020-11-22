@@ -5,7 +5,7 @@
 #
 
 $(call inherit-product, device/xiaomi/joyeuse/device.mk)
-$(call inherit-product, vendor/lineage/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 PRODUCT_NAME := aosp_joyeuse
 PRODUCT_DEVICE := joyeuse
