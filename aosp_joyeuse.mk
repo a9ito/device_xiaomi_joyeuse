@@ -7,9 +7,7 @@
 $(call inherit-product, device/xiaomi/joyeuse/device.mk)
 $(call inherit-product, vendor/lineage/config/common.mk)
 
-SAKURA_OFFICIAL := true
-
-PRODUCT_NAME := lineage_joyeuse
+PRODUCT_NAME := aosp_joyeuse
 PRODUCT_DEVICE := joyeuse
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 9 Pro
