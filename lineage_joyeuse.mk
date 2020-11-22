@@ -5,15 +5,16 @@
 #
 
 $(call inherit-product, device/xiaomi/joyeuse/device.mk)
-$(call inherit-product, vendor/conquer/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common.mk)
 
-CONQUER_BUILD_TYPE := BETA
+SAKURA_OFFICIAL := true
 
-PRODUCT_NAME := conquer_joyeuse
+PRODUCT_NAME := lineage_joyeuse
 PRODUCT_DEVICE := joyeuse
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 9 Pro
 PRODUCT_MANUFACTURER := Xiaomi
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

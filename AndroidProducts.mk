@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_joyeuse.mk
+    $(LOCAL_DIR)/lineage_joyeuse.mk
 
 COMMON_LUNCH_CHOICES := \
-    conquer_joyeuse-user \
-    conquer_joyeuse-userdebug \
-    conquer_joyeuse-eng
+    lineage_joyeuse-user \
+    lineage_joyeuse-userdebug \
+    lineage_joyeuse-eng
