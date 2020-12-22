@@ -341,9 +341,6 @@ persist.sar.mode.switch.on=true
 #In the taper mode,low voltage charging
 persist.vendor.cp.taper_term_mv=6500
 
-#Set fcc_main and icl_main = 400mA
-persist.vendor.cp.fcc_main_ua=400000
-
 #lct.ydt add
 persist.vendor.data.iwlan.enable=true
 persist.vendor.radio.data_con_rprt=1
