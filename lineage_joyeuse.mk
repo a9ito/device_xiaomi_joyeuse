@@ -5,9 +5,9 @@
 #
 
 $(call inherit-product, device/xiaomi/joyeuse/device.mk)
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_joyeuse
+PRODUCT_NAME := lineage_joyeuse
 PRODUCT_DEVICE := joyeuse
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 9 Pro
