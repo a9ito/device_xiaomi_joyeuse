@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository": "silont-project/kernel_xiaomi_sm6250",
+    "repository": "Jayus-Kranul/kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/joyeuse",
-    "branch": "nyu"
+    "branch": "rebase"
   },
   {
     "remote": "github",
