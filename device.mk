@@ -247,6 +247,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/pixel
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshims_dpmd
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
