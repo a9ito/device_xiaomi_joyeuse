@@ -875,7 +875,6 @@ vendor/lib/libopus.so|de31d994cd2b268adfab02e98c18d094b62c8de1
 vendor/lib/libpdmapper.so|f46538d5f3b927e5aac058738994787cc500e3dd
 vendor/lib/libpdnotifier.so|5825f64020d62d882979e174a24a5b33f9aa94ad
 vendor/lib/libperipheral_client.so|3e44b3a84fc1d1327b12abec5d28a67f52f9f00e
--vendor/lib/libplatformconfig.so|ac93a5abb64d1e187e214e9e5310b80b2bf55f91
 vendor/lib/libq3dtools_adreno.so|8d86f17059c210ab15a57ac9c648da1311ae35a1
 vendor/lib/libqcbor.so|e757a92f48c35c6c014cc97f97ed754f2add9301
 vendor/lib/libqcci_legacy.so|e6f1379c27839d52b43960b7b926f018de08c33e
@@ -1081,7 +1080,6 @@ vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|9946870b1f7712792f50b31b0150
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|2cd5ad30714e18371caa24b237f657719f1f0576
 vendor/lib/vendor.qti.hardware.cacert@1.0.so|35ef456afa3ea25acde9c1fc138fb1a8016e916d
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so|26b408813b305e329672f2e41db0dc3575173b0d
-vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so|1a8b2decb426d6b22441c6f84fcb173de6116880
 vendor/lib/vendor.qti.hardware.cvp@1.0-halimpl.so|8bb62eec89bb199c8b2f93b0375f423e7869ca58
 vendor/lib/vendor.qti.hardware.cvp@1.0.so|842fcc924b26268050cb7590700ba9190ad703fa
 vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so|e3d9c30671de33b91a9cecc5928927e1851d5859
@@ -1544,7 +1542,6 @@ vendor/lib64/libops.so|4ea2ec8d86148d8f20f969efd4e372f4cf087ae8
 vendor/lib64/libpdmapper.so|c492e13822af6be6e8e0d938a3f8e808cff4e1df
 vendor/lib64/libpdnotifier.so|086eab0e9ec99a3ed823df336e0058a511a304a5
 vendor/lib64/libperipheral_client.so|394634f6ecd4510813d5f9c3c54564b2a9d7f450
--vendor/lib64/libplatformconfig.so|750ca2e0c66f36022402c489b9dc9e76618a8e4e
 vendor/lib64/libprekill.so|9dc0c264490855603b55541e926a4258242a074e
 vendor/lib64/libq3dtools_adreno.so|8d86f17059c210ab15a57ac9c648da1311ae35a1
 vendor/lib64/libqcbor.so|0923a83698bcca2464f3e825443f04010ff3d9aa
@@ -1713,7 +1710,6 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|d11a6abbaddbfee605c57a1a23
 vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|22e4ecfff33c62adae5f1a0e399d3affb8f31c38
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so|b6ff1fa5d685ff3572993cbe8325c36654eea4d8
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|a1749dbcbf5f12efa33507fd72ffa6b7a1ba1fc4
-vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so|0779ffd78324ee3e6914ef3734d55822d1532e2c
 vendor/lib64/vendor.qti.hardware.cvp@1.0-halimpl.so|58751fa523a966812416f912b35a88802288772d
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so|a19f41834c9ec3a01abfac5b4210d1fbe51759e9
 vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so|1fa1ea98c1f28e12a1399c0f2e34e1f1a1e0c21b
